@@ -1,10 +1,10 @@
 {
-    "name": "BigIntChess.js",
+    "name": "BigIntChessjs",
     "version": "1.0.0",
     "description": "Chess Bitboards and operations in Node.js",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "jest",
         "format:check": "prettier --check .",
         "format:write": "prettier --write .",
         "lint:check": "eslint .",
@@ -13,10 +13,17 @@
     "keywords": [],
     "author": "Jack Nolan jcode4096@gmail.com",
     "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jnolan97/BigIntChessjs"
+    },
     "devDependencies": {
+        "chai": "^5.1.0",
         "eslint": "^9.2.0",
         "eslint-config-prettier": "^9.1.0",
         "husky": "^9.0.11",
+        "jest": "^29.7.0",
+        "mocha": "^10.4.0",
         "prettier": "^3.2.5",
         "prettier-eslint": "^16.3.0"
     }
